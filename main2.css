@@ -1,0 +1,315 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #dedede;
+    font: 1em/1.2em Arial, Tahoma, sans-serif;
+}
+.clearfix:after{
+     content: '';
+     display: table;
+     clear: both;
+}
+.clearfix:before{
+    content: '';
+    display: table;
+    clear: both;
+}
+.central{
+    width: 960px;
+    height: 2000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 10px;
+    padding-top: 45px;
+    /*border: 1px solid red;*/
+}
+.main-header{
+    width: 936px;
+    margin: 0 auto;
+    background: #ebebeb;
+    height: 205px;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 20px;
+    /*border: 1px solid green;*/
+}
+.main-leftside{
+    width:22%;
+    float: left;
+    height: 375px;
+    background: #ebebeb;
+    text-align: center;
+    padding-top: 156px;
+    padding-left: 8px;
+}
+.main-rightside{
+    width:78%;
+    float: left;
+
+}
+.hotel-info{
+    padding: 15px;
+    margin-left: 7px;
+
+}
+.hotel-info__img{
+    float: left;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+.hotel-info__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    margin-top: -1px;
+    margin-left: 9px;
+    margin-right: 5px;
+    letter-spacing: 0.3px;
+    vertical-align: baseline;
+}
+.hotel-info__link{
+    font-size: 11px;
+    line-height: 22px;
+    color: #b469bd;
+    text-decoration: none;
+}
+.hotel-info__hotel-description{
+    color: #999999;
+    font-size: 11px;
+    line-height: 22px;
+    display: block;
+    margin-top: -8px;
+    margin-left: 9px;
+    max-width: 75%;
+
+}
+.hotel-info__rating__total-score {
+    display: inline-block;
+    float: left;
+    width: 42px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 21px;
+    color: #fff;
+    background: #00a551;
+    border-radius: 3px;
+    margin: 17px 0 1px 9px;
+    text-align: center;
+}
+.hotel-info__rating-list{
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    margin-top: 13px;
+}
+.rating-list__item{
+    font-size:11px;
+    line-height: 20px;
+    color: #999999;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.hotel-info__bottom{
+    margin-top: 5px;
+    float: left;
+    /*border: 1px solid red;*/
+    max-width: 75%;
+}
+.hotel-info__list-marks{
+    margin: 0;
+    padding: 0;
+    margin-left: 7px;
+    font-size: 11px;
+    list-style: none;
+
+}
+.hotel-info__list-marks li{
+    display: inline-block;
+}
+.hotel-info__top{
+    /*border: 1px solid green;*/
+    max-width: 75%;
+    float: left;
+}
+.hotel-info__marks{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-left: 8px;
+}
+.thumbs{
+    background: url(images/thumbsup.png) no-repeat;
+    background-position: 0 3px;
+    color: #00a551;
+    background-position: -3px 1px;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.like{
+    background: url(images/like-red.png) no-repeat;
+    background-position: 4px 2px;
+    color: #c83831;
+    display: inline-block;
+    padding-left: 17px;
+    margin-right: 8px;
+}
+.was-here{
+    background: url(images/flag.png) no-repeat;
+    background-position: 0 3px;
+    color: #cccccc;
+    display: inline-block;
+    padding-left: 11px;
+    margin-right: 5px;
+}
+.black{
+    color: #000;
+}
+.hotel-events__title{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    margin-left: 21px;
+}
+.gray{
+    color: #bbbbbb;
+}
+.events {
+    float: left;
+    font-size: 0;
+    margin-left: 8px;
+    margin-top: 9px;
+    width: 73%;
+}
+.event{
+    max-height: 97px;
+    margin-bottom: 8px;
+    font-size: 0;
+}
+.event-left, .event-mid, .event-right{
+    float: left;
+}
+.event-left{
+    max-height: 97px;
+    width: 301px;
+    background: #fffbed;
+    padding: 20px 15px;
+
+}
+.event-mid{
+    background: #fcf6e1;
+    padding: 20px;
+    max-height: 97px;
+    line-height: 13.5px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    width: 190px;
+}
+.event-right{
+    background: #fffbed;
+    max-height: 97px;
+    width:43px;
+}
+.artist-avatar{
+    float: left;
+    margin-right: 13px;
+}
+.date{
+    color: #000000;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+    etter-spacing: 0.2px;
+}
+.day{
+    color: #b8b6b2;
+    font-weight: normal;
+}
+.artist-name{
+    color: #b469bd;
+    font-size: 15px;
+    line-height: 14px;
+    font-weight:bold;
+
+}
+.added{
+    color: #b8b6b2;
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.hotel-events__link{
+    font-size: 12px;
+    font-weight: normal;
+
+    color: #b469bd;
+    text-decoration: none;
+    padding-left: 30px;
+    display: inline-block;
+    background-image: url("images/tune.png");
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+}
+.hotel-events__link--gray{
+    color: #bfbcae;
+    padding-bottom: 5px;
+    background-position: 1px 8px;
+    padding-top: 5px;
+    background-image: url("images/search.png");
+}
+.event-right {
+    font-size: 11px;
+    line-height: normal;
+    background: #fffbed;
+    width: 43px;
+    text-align: center;
+}
+.event-right__seen{
+    text-align: center;
+    width: 100%;
+    min-height: 45px;
+    background: url(images/eye-grey.png) no-repeat 16px 21px;
+    padding-top: 38px;
+    margin-bottom:9px;
+    color: #a1a19f;
+}
+.event-right__likes{
+    text-align: center;
+    width: 100%;
+    min-height: 45px;
+    background: url(images/heart-grey.png) no-repeat 16px 0px;
+    padding-top: 10px;
+    color: #a1a19f;
+}
+.event-right__seen--blue{
+    background: url(images/eye-blue.png) no-repeat 16px 21px;
+    color: #6bb7e3;
+}
+.event-right__likes--red{
+    background: url(images/like-red.png) no-repeat 16px 0px;
+    color: #c83831;
+}
+.main-rightside__rightbar {
+    float: right;
+    padding-top: 84px;
+    padding-bottom: 110px;
+    background: #ebebeb;
+    text-align: center;
+    width: 24.5%;
+    margin-top: 9px;
+
+}
+
